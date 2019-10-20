@@ -16,5 +16,5 @@ Gem::Specification.new do |gem|
   gem.version       = HeyIAmOverHere::VERSION
 
   gem.add_dependency "rails", ">= 3.0.5"
-  gem.add_dependency "dnssd", "~> 1.3"
+  gem.add_dependency "dnssd", ">= 1.3", "< 4.0"
 end
